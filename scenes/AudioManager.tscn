@@ -1,0 +1,20 @@
+[gd_scene load_steps=7 format=3 uid="uid://dlxgode6qoaty"]
+
+[ext_resource type="Script" uid="uid://h08eh7ppkywq" path="res://scenes/audiomanager.gd" id="1_hux41"]
+[ext_resource type="AudioStream" uid="uid://cd3jbkbxb0fuu" path="res://audio/sfx/jump.wav" id="2_qb6qo"]
+[ext_resource type="AudioStream" uid="uid://crqeforafs0mv" path="res://audio/sfx/coin.wav" id="3_v5v75"]
+[ext_resource type="AudioStream" uid="uid://vkwqsw38keam" path="res://audio/sfx/hit.mp3" id="4_hmi33"]
+[ext_resource type="AudioStream" uid="uid://ca3e1paoeaop0" path="res://audio/music/LV5.wav" id="5_muqnj"]
+[ext_resource type="AudioStream" uid="uid://3wrcf2o4p6h6" path="res://audio/music/LV7.wav" id="6_5jw7j"]
+
+[node name="AudioManager" type="Node"]
+script = ExtResource("1_hux41")
+jump_sfx = ExtResource("2_qb6qo")
+coin_sfx = ExtResource("3_v5v75")
+hurt_sfx = ExtResource("4_hmi33")
+hit_sfx = ExtResource("4_hmi33")
+level_music = Array[AudioStream]([ExtResource("5_muqnj"), ExtResource("6_5jw7j")])
+
+[node name="MusicPlayer" type="AudioStreamPlayer" parent="."]
+
+[node name="SfxPlayer" type="AudioStreamPlayer" parent="."]
