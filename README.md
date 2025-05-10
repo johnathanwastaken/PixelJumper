@@ -49,3 +49,7 @@ This project taught the fundamentals of:
 
 Created by **Johnathan Ortiz-Flores** for CSE 4410 – Final Project  
 [GitHub](https://github.com/johnathanwastaken)
+
+## 🗂️ Assests
+- https://pixelfrog-assets.itch.io/pixel-adventure-1
+- https://pixelfrog-assets.itch.io/pixel-adventure-2
